@@ -303,7 +303,7 @@ p.bottom{
 	display: block;
 	float:left;
 	margin:3% 0 0% 3.6%;
-	background: #1B43F9;
+	background:#E5E5E5 ;
 	cursor:pointer;
 }
 .span_1_of_4:hover {
@@ -1766,8 +1766,7 @@ h5.leave{
 	font-size:0.89em;
 }
 span.yellow1 a {
-	color: #1B43F9;
-	background:#424147;
+	color: black;
 	padding:5px 10px;
 }
 .span_2_of_contact {
