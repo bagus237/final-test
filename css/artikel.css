@@ -1,0 +1,141 @@
+@keyframes resize{
+  0% {padding: 0;}
+  50% {padding: 0 10px;}
+  100% {padding: 0 30px;}
+}
+
+body {
+  margin: 0;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+div.intro {
+    display: flexbox;
+    align-items: center;
+    justify-content: center; 
+    background-color:gainsboro;
+}
+
+/*h1 {
+ 
+}*/
+
+#welcome {
+  color: blue;
+  transition: all 2s;
+  animation: resize 1s alternate ease-in-out;
+  text-align: center;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  margin : auto;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: rgb(18, 161, 73);
+  color: white;
+}
+.topnav img {
+  width: 80px;
+  float: left;
+}
+
+.news
+    {
+        background-color: white;
+        width: 55%;
+        margin: auto;/*supaya ke tengah*/
+        padding: 10px;
+        margin-bottom: 30px;
+    }
+ 
+.news h2
+    {
+        text-align: center;
+        font-size: 1.5em;
+        color: #424147;
+        font-weight: 600;
+        font-family: "Century Gothic";
+        margin-bottom: 30px;
+        margin-top: 30px;
+        
+    }
+ 
+.news img
+    {
+        width: 100%;
+        height: 350px;
+    }
+ 
+.news a
+    {
+        text-decoration: none;
+        background-color: crimson;
+        color: white;
+        padding: 8px;
+        display: block;/*menjadikan elemen tipe blok*/
+        width: 120px;
+        text-align: center;
+        border-radius: 8px; 
+         
+    }
+ 
+.news a:hover
+    {
+        background-color: black;
+        transition-duration: 2s;
+        transition-property: all;
+        width: 150px;
+        padding: 15px;
+    }
+
+    
+.galeri{
+  width:90%;
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  margin: auto;
+}
+
+.galeri .foto img{ 
+  width: 400px;
+}
+
+.foto {
+  margin:20px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.foto a{
+  border: 1px solid rgb(94, 29, 94);
+  padding:10px;
+  color:white;
+  background:rgb(94, 29, 94);
+  text-decoration: none;
+  border-radius: 30px;
+  cursor:pointer;
+}
+
+.foto img{
+  width: 300px;
+  height: 300px;
+}
+
